@@ -211,6 +211,24 @@ p {
   width: 100%;
 }
 
+#save-recipe-btn {
+  background: #5a6fff;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 2px 8px rgba(70,100,220,0.07);
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+#save-recipe-btn:hover,
+#save-recipe-btn:focus {
+  background: #4669cc;
+}
+
 /* Responsive fix: stack controls vertically on small screens */
 @media (max-width: 600px) {
   .remix-controls {
